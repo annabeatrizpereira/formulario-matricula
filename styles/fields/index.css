@@ -94,4 +94,9 @@ input {
         color: var(--semantic-error);
         margin-top: .25rem;
     }
+
+    /* enquanto não estiver em foco */
+    &:not(:focus):valid + .error {
+        display: none;
+    }
 }
