@@ -8,6 +8,7 @@
 main {
     overflow: auto;
     padding: 4rem;
+    padding-bottom: 6rem;
 
     /* css nesting não funciona em todos navegadores */
     & .main-container {
@@ -38,6 +39,7 @@ aside {
         & > img {
             /* primeiro nível da imagem */
             margin-top: 2rem;
+            max-width: 90%;
         }
     }
 
